@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+.rotateX-90 {
+  transform: rotateX(90deg);
+}
+.rotateX-0 {
+  transform: rotateX(0deg);
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
